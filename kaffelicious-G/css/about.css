@@ -1,0 +1,39 @@
+body {color:#333;}
+
+.about-img {
+	border:2px solid #333;
+	color:#333;
+	border-radius:5px;
+	height:400px;
+	width:80%;
+	margin:auto;
+	background-image:url("about-on-page.jpg");
+	background-size:cover;
+	background-position:top-left;
+}
+
+.who-are-we {
+	margin:auto;
+	color:#333;
+}
+
+.who-are-we div h3 {
+	padding:12px;
+	border:2px solid gray;
+	background-color:#ddd;
+	margin-bottom:0;
+	border-bottom:0;
+	box-shadow:0px 2px 2px black;
+}
+
+.who-are-we div p {
+	padding:20px 30px 20px 30px;
+	border:2px solid gray;
+	box-shadow:0px 3px 2px black;
+}
+
+.who-are-we div h3, .who-are-we div p {
+	font-family:Verdana, sans-serif;
+	letter-spacing:0;
+}
+
